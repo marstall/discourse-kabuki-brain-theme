@@ -4,10 +4,25 @@
 }
 
 .buttons > :nth-child(2) {
-  display:none
+  display: none
 }
 
-/* Targets the third child (the anchor) */
-//.buttons > :nth-child(3) {
-//  display:none;
-//}
+.d-header {
+  box-shadow: none;
+}
+
+.d-above-header {
+  height: 22px;
+  color: white;
+
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding-top: 4px;
+  //padding: 10px;
+}
+
+.d-above-header img {
+  margin-top:-3px;
+  height:20px;
+}
