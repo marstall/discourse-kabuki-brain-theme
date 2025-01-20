@@ -1,0 +1,13 @@
+/* Hide the edit pencil icon and revision count link */
+.post-infos .edits, .topic-map__links-trigger, .navigation-container, .footer-message, .topic-list-header- {
+  display: none !important;
+}
+
+.buttons > :nth-child(2) {
+  display:none
+}
+
+/* Targets the third child (the anchor) */
+//.buttons > :nth-child(3) {
+//  display:none;
+//}
